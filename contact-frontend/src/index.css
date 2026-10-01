@@ -1,0 +1,37 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  min-width: 320px;
+  min-height: 100%;
+  background: #f0f3ef;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: 'Avenir Next', Avenir, 'Segoe UI', sans-serif;
+  background:
+    linear-gradient(135deg, rgb(23 72 61 / 3%) 25%, transparent 25%) 0 0 / 18px 18px,
+    #f0f3ef;
+  color: #20342e;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+button,
+input,
+textarea {
+  font-family: inherit;
+}
+
+button,
+a,
+input,
+textarea {
+  -webkit-tap-highlight-color: transparent;
+}
